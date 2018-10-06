@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>掲示板</title>
+</head>
+<body>
+    <h1> 掲示板 </h1>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th colspan="3"> title  </th>
+        </tr>
+
+        <tr>
+            <td>       </td>
+            <td> 投稿日 </td>
+            <td> 作成者 </td>
+        </tr>
+
+        <tr>
+            <td colspan="3"> コンテンツ </td>
+        </tr>
+    </table>
+    <br>
+    <form method="POST" action="/BulletinBoard">
+        <table>
+            <tr>
+                <td>Name</td>   <td><input type="text" name="name"></td>
+            </tr>
+            <tr><td>Title</td>  <td><input type="text" name="title"></td></tr>
+            <tr><td>Content</td><td><textarea name="content" rows="10" cols="40">感想を記入します。</textarea></td></tr>
+            <tr><td></td><td><input type="submit" value="送信する"></td></tr>
+        </table>
+    </form>
+</body>
+</html>
