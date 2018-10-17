@@ -13,7 +13,11 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-
+/**
+ * 掲示板アプリの実処理(doGet, doPost)を行う継承元クラス
+ *
+ * @author rikusekiguchi 2018/08/07
+ */
 public class BulletinBoardAppHandler extends Handler {
     private UserDAO userDAO;
     private ItemDAO itemDAO;

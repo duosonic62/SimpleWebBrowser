@@ -7,6 +7,11 @@ import com.example.webServer.Handler;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * 静的なファイルを返却するアプリの実処理(doGet)を行う継承元クラス
+ *
+ * @author rikusekiguchi 2018/08/07
+ */
 public class StaticWebAppHandler extends Handler {
 
     /**
